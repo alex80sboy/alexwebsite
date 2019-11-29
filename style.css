@@ -11,9 +11,10 @@
   background: navy;
   font-size: 51px;
   width: 100%;
-  height: 221px;
+  height: 186px;
 }
 .images a{
+    margin-top: 11px;
     display: flex;
     float: left;
     width: 32%;
@@ -23,6 +24,7 @@
     border: 2px dotted yellow;
 }
 .precio a{
+    margin-top: 11px;
     display: flex;
     float: left;
     width: 32%;
@@ -33,6 +35,7 @@
     border: 2px dotted yellow;
 }
 .mail a{
+    margin-top: 11px;
     display: flex;
     height: 91px;
     float: left;
@@ -42,21 +45,8 @@
     border: 2px dotted yellow;
 }
 
-.mobile-menu ol li{
-  display: flex;
-  list-style-type: none;
-  
 
-}
-.mobile-menu ol li a{
-    width: 100%;
-    display: flex;
-    list-style-type: none;
-    
-    background: blue;
-    color:yellow;
-    
-}
+
 
 .infoalex img{
     width: 100%;
@@ -83,7 +73,7 @@ h2{
     border-radius: 40px;
     color: yellow;
     width: 190px;
-    margin: 90px;
+    margin: 40px;
     font-size: 31px;
     margin-bottom: 21px;
 }
@@ -130,14 +120,15 @@ h5{
 .botones p{
     display: flex;
     color: white;
-    margin-left: 77px;
+    margin-left: 40px;
     background: coral;
-    width: 70%;
+    width: 90%;
     height: 40px;
-    margin-top: 21px;
+    margin-top: 11px;
     margin-bottom: 10px;
     border-radius: 70px;
     border-style: dotted;
+    padding-top: 0;
     float: left;
     font-size: 27px;
 }
@@ -145,9 +136,9 @@ h5{
     display: flex;
     color: white;
     background: green;
-    width: 70%;
+    width: 90%;
     height: 40px;
-    margin-left: 77px;
+    margin-left: 40px;
     border-radius: 70px;
     border-style: dotted;
    
@@ -198,7 +189,7 @@ ol li img{
     padding-bottom: 21px;
 }
 
- .fixed{
+ .fixed-background{
     display: block;
     background:url('https://1.bp.blogspot.com/-ikuSHPgtc14/Xdd3iSbhM8I/AAAAAAAAKt8/qpl6V9dnTaQfbXDoeGv7g5XwJ-DfxpphgCEwYBhgL/s1600/infobackground.jpg') center fixed;
     background-size: cover;
@@ -206,7 +197,7 @@ ol li img{
     height: 34vh;
     
   }
-.fixed p{
+.fixed-background p{
     padding-top: 40px;
   
     
