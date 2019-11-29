@@ -183,8 +183,10 @@ ol li img{
     display: flex;
    
 }
-
 .costos{
+    display: none;
+}
+.costos1{
     width: 100%;
     display: flex;
     align-items: center;
@@ -195,11 +197,11 @@ ol li img{
 }
 
  .fixed-background{
-  
+    display: block;
     background:url('https://1.bp.blogspot.com/-ikuSHPgtc14/Xdd3iSbhM8I/AAAAAAAAKt8/qpl6V9dnTaQfbXDoeGv7g5XwJ-DfxpphgCEwYBhgL/s1600/infobackground.jpg') center fixed;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 40vh;
     
   }
 .fixed-background p{
@@ -357,6 +359,10 @@ ol li img{
         background: red;
         padding-bottom: 21px;
     }
+    .costos1{
+        display: none;
+    }
+
     .desktop-menu{
        background: navy;
         font-size: 71px;
