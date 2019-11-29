@@ -185,6 +185,7 @@ ol li img{
     padding-bottom: 21px;
 }
 h1{
+    padding-top: 10px;
     background: red;
     width: 100%;
     color: white;
@@ -385,7 +386,7 @@ h1{
     .cotizacion h6{
         display: none;
     }
-    h1{
+    .cotizacion h1{
         display: none;
     }
     .desktop-menu{
