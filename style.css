@@ -170,6 +170,9 @@ ol li img{
     
   
 }
+.gallery2{
+    display: none;
+}
 .infograma img{
     padding-top: 21px;
     width: 100%;
@@ -334,9 +337,11 @@ ol li img{
         list-style-type: none;
         display: flex;
         flex-direction: row;
-
-    
-   
+    }
+    .gallery2{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
     }
     .infograma img{
         padding-top: 21px;
