@@ -131,11 +131,12 @@ h5{
 .botones p{
     display: flex;
     color: white;
+    margin-left: 77px;
     background: coral;
-    width: 29%;
+    width: 70%;
     height: 40px;
-    margin-left: 190px;
-    margin-top: 40px;
+    margin-top: 21px;
+    margin-bottom: 10px;
     border-radius: 70px;
     border-style: dotted;
     float: left;
@@ -145,13 +146,12 @@ h5{
     display: flex;
     color: white;
     background: green;
-    width: 29%;
+    width: 70%;
     height: 40px;
-    margin-right: 190px;
-    margin-top: 40px;
+    margin-left: 77px;
     border-radius: 70px;
     border-style: dotted;
-    float: right;
+   
     font-size: 27px;
   
 }
