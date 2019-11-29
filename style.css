@@ -125,7 +125,7 @@ h5{
     width: 90%;
     height: 40px;
     margin-top: 11px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     border-radius: 70px;
     border-style: dotted;
     padding-top: 0;
@@ -138,7 +138,7 @@ h5{
     background: green;
     width: 90%;
     height: 40px;
-    margin-left: 14px;
+    margin-left: 12px;
     border-radius: 70px;
     border-style: dotted;
     font-size: 27px;
@@ -184,6 +184,35 @@ ol li img{
     background: red;
     padding-bottom: 21px;
 }
+h1{
+    background: red;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+.cotizacion h6{
+    background: red;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+}
+.cotizacion p{
+    background: red;
+    width: 100%;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+
+
 .costos1 img{
     width: 89%;
 }
@@ -350,7 +379,15 @@ ol li img{
     .costos1{
         display: none;
     }
-
+    .cotizacion p{
+        display: none;
+    }
+    .cotizacion h6{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
     .desktop-menu{
        background: navy;
         font-size: 71px;
